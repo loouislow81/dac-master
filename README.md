@@ -11,6 +11,20 @@ You need these packages to be installed.
 - udev
 - sox
 
+### Install
+
+To install the `dac-master`, run this command:
+
+```bash
+$ sudo ./setup.sh --install
+```
+
+To remove the `dac-master`, run this command without the **sudo**:
+
+```bash
+$ ./setup.sh --remove
+```
+
 ### Usage
 
 **dac-master [--install|--sleep]**
